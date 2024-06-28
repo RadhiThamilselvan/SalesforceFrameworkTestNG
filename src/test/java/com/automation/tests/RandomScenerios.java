@@ -11,7 +11,7 @@ import com.automation.base.Base_Salesforce;
 
 public class RandomScenerios extends Base_Salesforce{
 	
-	
+	@Test
 	public void checkFirstandLastName()
 	{
 		login_Salesforce();
@@ -41,7 +41,7 @@ public class RandomScenerios extends Base_Salesforce{
 	    
 	    
 	}
-	
+	@Test
 	public void verifyTabCustamization()
 	{
 		 login_Salesforce();
@@ -60,7 +60,7 @@ public class RandomScenerios extends Base_Salesforce{
 		 userNameDropdown("Logout");
 		 login_Salesforce();
 	}
-	
+	@Test
 	public void blockingEvent()
 	{
 		login_Salesforce();
